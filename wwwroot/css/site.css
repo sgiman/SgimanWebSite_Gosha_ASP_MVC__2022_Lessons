@@ -1,0 +1,123 @@
+/*********************************
+ * site.css
+ * 
+ * SIMPLE TEST CSS3
+ * GOSHA DUDAR
+ * -------------------------------
+ * Writing by sgiman @ 2023, sep
+ *********************************/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f1efef;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, h1, h2, h3, h4, h5 {
+    font-family: "Raleway", sans-serif
+}
+
+body h1 {
+	font-weight: 500;
+	font-size: 36px;
+	letter-spacing: 0.007em;
+	font-style: normal;
+}
+
+header {
+    width: 100%;
+    padding: 15px 10%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: #333;
+    border-bottom: 2px solid #000;
+    line-height: 1.8;
+}
+
+header .logo {
+    font-weight: 600;
+	font-size: 32px;
+	line-height: 56px;
+	letter-spacing: 0.162em;
+	font-weight: 400;
+	font-style: normal;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    padding: 15px 10%;
+    margin: 50px 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+    display: block;
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    padding: 26px 0;
+    color: #fff;
+    background: #333;
+    border-top: 2px solid #000;
+}
+
+main label {
+	width: 100%;
+	margin-top: 10px;
+	display: block;
+}
+
+/* Inputs without "Submit" */
+main input:not([type="submit"]) {
+	width: 90%;
+	padding: 10px 14px;
+	font-size: 14px;
+	border-radius: 5px;
+	border: 1px solid silver;
+	outline: none;
+	margin-top: 7px;
+}
+
+/* Inputs without "Submit" (Highlight) */
+main input:not([type="submit"]):focus {
+	border: 1px solid #ff0000;
+}
+
+/* Button "Submit" */
+main input[type="submit"] {
+	width: 40%;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 0;
+	margin-top: 7px;
+	background: #ff6a00;
+	font-weight: bold;
+	color: #833904;
+	cursor: pointer;
+}
+
+.field-validation-error {
+  color:red;
+  font-size: smaller;
+}

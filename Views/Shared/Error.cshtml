@@ -1,0 +1,26 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">Во время обработки Вашего запроса произошла ошибка.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+<h3>Development Mode</h3>
+<p>
+    При переходе в среду <strong>Development</strong> отобразится более подробная информация о произошедшей ошибке.
+</p>
+<p>
+    <strong>Среду Development не следует включать для развернутых приложений.</strong>
+	  Это может привести к отображению конфиденциальной информации из исключений конечным пользователям.
+     Для локальной отладки включите среду <strong>Development</strong>, 
+     задав для переменной среды <strong>ASPNETCORE_ENVIRONMENT</strong> значение <strong>Development</strong>.
+     и перезапустите приложение.    
+</p>

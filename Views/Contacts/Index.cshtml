@@ -1,0 +1,41 @@
+﻿@*-------------------------------------------------------------
+    CONTACTS
+    For more information on enabling MVC for empty projects, 
+    visit https://go.microsoft.com/fwlink/?LinkID=397860
+--------------------------------------------------------------*@
+
+@model Contact
+
+@{
+    ViewData["Title"] = "Обратная связь";
+}
+
+<h1>Обратная связь</h1>
+
+<br>
+
+<form method="post" asp-controller="Contacts" asp-action="Check">
+
+    <label asp-for="Name"></label>
+    <input asp-for="Name" /><br>
+    <span asp-validation-for="Name"></span>
+
+    <label asp-for="SurName"></label>
+    <input asp-for="SurName" /><br>
+    <span asp-validation-for="SurName"></span>
+
+    <label asp-for="Age"></label>
+    <input asp-for="Age" /><br>
+    <span asp-validation-for="Age"></span>
+
+    <label asp-for="Email"></label>
+    <input asp-for="Email" /><br>
+    <span asp-validation-for="Email"></span>
+
+    <label asp-for="Message"></label>
+    <input asp-for="Message" /><br>
+    <span asp-validation-for="Message"></span>
+    
+    <input type="submit" value="Отправить" /><br>
+
+</form>

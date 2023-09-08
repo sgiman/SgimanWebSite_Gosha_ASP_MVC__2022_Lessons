@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>    
+    
+    <!-- HEADER -->
+    <header>        
+        <span class="logo">sgiman</span>        
+        <nav>
+            <a href="/">Главная</a>
+            <a href="/contacts">Обратная связь</a>            
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        &copy; 2023 - Sgiman. Все права защещены. 
+    </footer>
+
+</body>
+
+</html>
