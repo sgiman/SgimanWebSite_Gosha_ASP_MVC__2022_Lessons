@@ -1,6 +1,6 @@
-## SgimanWebSite
+# SgimanWebSite
 
-# ASP.NET Core MVC (.NET 7)
+## ASP.NET Core MVC (.NET 7)
 
 С# | Visual Studio 2022
 ASP.NET Core MVC (.NET 7) 
