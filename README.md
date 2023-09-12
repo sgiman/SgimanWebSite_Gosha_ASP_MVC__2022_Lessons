@@ -9,7 +9,7 @@ Template ASP NET (Model-View-Controller)
 
 **Gosha Dudar | Изучение ASP.NET Core с нуля**
 
-##Разработка веб проекта на Core MVC (.NET 6)
+## Разработка веб проекта на Core MVC (.NET 6)
 
 https://www.youtube.com/watch?v=xNLhFNxYAWQ&t=50s
 
