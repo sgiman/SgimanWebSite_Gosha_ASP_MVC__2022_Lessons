@@ -14,7 +14,7 @@ Template ASP NET (Model-View-Controller)
 
 https://www.youtube.com/watch?v=xNLhFNxYAWQ&t=50s
 
-![Screenshot_1](https://github.com/sgiman/SgimanWebSite_ASP_MVC/assets/7030369/31fc5e82-2a11-46fc-8a27-311d069c7783)
+![Screenshot_1a](https://github.com/sgiman/SgimanWebSite_ASP_MVC/assets/7030369/3a3c4ea1-0f4e-4b00-8604-f3566caae9bc)
 
 
 
